@@ -1,3 +1,23 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+/*
+@import "flowbite/src/themes/default";
+@plugin "flowbite/plugin";*/
+
+/* Custom Scrollbar for Modern Look */
+.scrollbar-custom::-webkit-scrollbar {
+    height: 6px; /* Thin scrollbar */
+  }
+  
+  .scrollbar-custom::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  .scrollbar-custom::-webkit-scrollbar-thumb {
+    background: #4b5563; /* Gray-600 */
+    border-radius: 9999px; /* Fully rounded */
+  }
+  
+  .scrollbar-custom:hover::-webkit-scrollbar-thumb {
+    background: #9ca3af; /* Lighter gray-400 on hover */
+  }
+  
