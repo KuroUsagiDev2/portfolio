@@ -5,7 +5,7 @@
 	<div class="overflow-y-auto py-5 px-3 h-full bg-white dark:bg-gray-800">
 		<ul class="space-y-2">
 			<div class="flex items-center p-2 space-x-4">
-				<img class="w-10 h-10 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gough.png" alt="user photo" />
+				<img class="w-10 h-10 rounded-full" src="/images/profile.jpg" alt="user photo" />
 				<div>
 					<h4 class="font-semibold text-gray-900 dark:text-white">Jorge Carbajulca</h4>
 					<span class="text-sm text-gray-500 dark:text-gray-400">jorgecarbajulca@gmail.com</span>
